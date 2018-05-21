@@ -1,6 +1,6 @@
 {
   "name": "react-simple-tabs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "react-simple-tabs React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,20 +18,34 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.1"
+  },
   "peerDependencies": {
-    "react": "16.x"
+    "react": ">=16.3"
   },
   "devDependencies": {
     "nwb": "0.21.x",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Husni Munaya",
+  "homepage": "https://github.com/husnimun/react-simple-tabs#readme",
   "license": "MIT",
-  "repository": "",
   "keywords": [
-    "react-component"
-  ]
+    "react",
+    "tabs"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husnimun/react-simple-tabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/husnimun/react-simple-tabs/issues"
+  }
 }
