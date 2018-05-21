@@ -1,4 +1,4 @@
-# React Simple Tabs
+# Simple React Tabs
 
 Primitives to build simple and accessible React tabs component.
 

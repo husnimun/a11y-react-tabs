@@ -1,7 +1,7 @@
 {
-  "name": "react-simple-tabs",
+  "name": "a11y-react-tabs",
   "version": "0.1.0",
-  "description": "react-simple-tabs React component",
+  "description": "Primitives to build simple and accessible React tabs component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -31,7 +31,7 @@
     "react-dom": "^16.3.2"
   },
   "author": "Husni Munaya",
-  "homepage": "https://github.com/husnimun/react-simple-tabs#readme",
+  "homepage": "https://github.com/husnimun/a11y-react-tabs#readme",
   "license": "MIT",
   "keywords": [
     "react",
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/husnimun/react-simple-tabs.git"
+    "url": "git+https://github.com/husnimun/a11y-react-tabs.git"
   },
   "bugs": {
-    "url": "https://github.com/husnimun/react-simple-tabs/issues"
+    "url": "https://github.com/husnimun/a11y-react-tabs/issues"
   }
 }
