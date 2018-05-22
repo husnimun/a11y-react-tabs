@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import cx from 'classnames'
 import { TabsConsumer } from './Tabs'
 
-const DEFAULT_CLASS = 'simple-react-tabs__tab-panel'
+const DEFAULT_CLASS = 'a11y-react-tabs__tab-panel'
 
 class TabPanel extends React.Component {
   static defaultProps = {

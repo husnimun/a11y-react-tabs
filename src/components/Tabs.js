@@ -6,7 +6,22 @@ const TabsContext = React.createContext({})
 const TabsProvider = TabsContext.Provider
 export const TabsConsumer = TabsContext.Consumer
 
+const DEFAULT_CLASS = 'a11y-react-tabs'
+
 export default class Tabs extends React.Component {
+  static defaultProps = {
+    className: DEFAULT_CLASS,
+  }
+
+  static propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.array,
+      PropTypes.object,
+    ]),
+  }
+
   addTab = cb => {
     const id = uuid()
     this.setState(
@@ -23,9 +38,7 @@ export default class Tabs extends React.Component {
   addPanel = cb => {
     const id = uuid()
     this.setState(
-      prevState => ({
-        panelIds: [...prevState.panelIds, id],
-      }),
+      prevState => ({ panelIds: [...prevState.panelIds, id] }),
       () => {
         cb && cb({ id })
       }
@@ -33,9 +46,7 @@ export default class Tabs extends React.Component {
   }
 
   setIndex = index => {
-    this.setState({
-      selectedIndex: index,
-    })
+    this.setState({ selectedIndex: index })
   }
 
   setTabFocus = (index, newFocus) => {
@@ -132,7 +143,10 @@ export default class Tabs extends React.Component {
 
   addTabRef = ({ index, node }) => {
     this.setState(prevState => ({
-      tabRefs: { ...prevState.tabRefs, [index]: node },
+      tabRefs: {
+        ...prevState.tabRefs,
+        [index]: node,
+      },
     }))
   }
 
