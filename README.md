@@ -50,11 +50,13 @@ export default () => {
 | ----------------------------------- | ---------- | --------------------------- | --------------------------------------- |
 | `className` <br> _optional_         | `string`   | `a11y-react-tabs`           | Class name for the `<Tab />` component. |
 
+
 ### `TabList`
 #### props
 | Prop                                | Type       | Default                     | Description                                  |
 | ----------------------------------- | ---------- | --------------------------- | -------------------------------------------- |
 | `className` <br> _optional_         | `string`   | `a11y-react-tabs__tablist`  | Class name for the `<TabPanel />` component. |
+
 
 ### `Tab`
 #### props
@@ -64,6 +66,7 @@ export default () => {
 | `className` <br> _optional_         | `string`    | `a11y-react-tabs__tab`           | Class name for the `<Tab />` component. |
 | `selectedClassName` <br> _optional_ | `string`    | `a11y-react-tabs__tab--selected` | Class name for the active tab.          |
 | `disabledClassName` <br> _optional_ | `string`    | `a11y-react-tabs__tab--disabled` | Class name for the disabled tab.        |
+
 
 ### `TabPanel`
 #### props
@@ -77,3 +80,6 @@ export default () => {
 * documentation
 * usage example
 * tests
+
+## License
+MIT
