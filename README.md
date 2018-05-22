@@ -3,12 +3,12 @@
 Primitives to build simple and accessible React tabs component.
 
 ## Installation
-```
+```bash
 npm install a11y-react-tabs
 ```
 
 ## Basic Example
-```
+```js
 import { Tabs, TabList, Tab, TabPanel } from 'a11y-react-tabs'
 
 export default () => {
