@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'ReactTabs',
+      global: 'A11yReactTabs',
       externals: {
         react: 'React',
       },
