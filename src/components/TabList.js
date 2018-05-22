@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const DEFAULT_CLASS = 'a11y-react-tabs__tablist'
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import uuid from '../helpers/uuid'
 import { isTabDisabled } from '../helpers/utils'
 
