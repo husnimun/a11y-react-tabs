@@ -7,7 +7,7 @@ Primitives to build simple and accessible React tabs component.
 npm install a11y-react-tabs
 ```
 
-## Basic Example
+## Basic Usage
 ```js
 import { Tabs, TabList, Tab, TabPanel } from 'a11y-react-tabs'
 
@@ -75,6 +75,8 @@ export default () => {
 | `className` <br> _optional_         | `string`   | `a11y-react-tabs__tab-panel`           | Class name for the`<TabPanel />` component. |
 | `selectedClassName` <br> _optional_ | `string`   | `a11y-react-tabs__tab-panel--selected` | Class name for the active tab panel.        |
 
+## Demo
+* [Basic example](https://codesandbox.io/s/jkkqzxlp9)
 
 ## TODO:
 * documentation
