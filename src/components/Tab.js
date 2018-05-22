@@ -4,7 +4,7 @@ import cx from 'classnames'
 import { TabsConsumer } from './Tabs'
 import { isTabDisabled } from '../helpers/utils'
 
-const DEFAULT_CLASS = 'simple-react-tabs__tab'
+const DEFAULT_CLASS = 'a11y-react-tabs__tab'
 
 class Tab extends React.Component {
   static defaultProps = {
