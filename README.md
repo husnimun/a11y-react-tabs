@@ -3,6 +3,7 @@
 Primitives to build simple and accessible React tabs component.
 
 ## Installation
+`a11y-react-tabs` requires React version 16.3 or later.
 ```bash
 npm install a11y-react-tabs
 ```
