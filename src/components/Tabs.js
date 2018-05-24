@@ -5,7 +5,19 @@ import { isTabDisabled } from '../helpers/utils'
 
 const TabsContext = React.createContext({})
 const TabsProvider = TabsContext.Provider
-export const TabsConsumer = TabsContext.Consumer
+const TabsConsumer = TabsContext.Consumer
+
+export const WithConsumer = Component => {
+  return class extends React.Component {
+    render() {
+      return (
+        <TabsConsumer>
+          {value => <Component {...value} {...this.props} />}
+        </TabsConsumer>
+      )
+    }
+  }
+}
 
 const DEFAULT_CLASS = 'a11y-react-tabs'
 

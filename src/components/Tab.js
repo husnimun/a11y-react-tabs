@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
-import { TabsConsumer } from './Tabs'
+import { WithConsumer } from './Tabs'
 import { isTabDisabled } from '../helpers/utils'
 
 const DEFAULT_CLASS = 'a11y-react-tabs__tab'
@@ -129,12 +129,4 @@ class Tab extends React.Component {
   }
 }
 
-export default props => (
-  <TabsConsumer>
-    {value => (
-      <Tab {...value} {...props}>
-        {props.children}
-      </Tab>
-    )}
-  </TabsConsumer>
-)
+export default WithConsumer(Tab)
