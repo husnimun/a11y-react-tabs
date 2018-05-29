@@ -78,10 +78,9 @@ export default () => {
 
 ## Demo
 * [Basic example](https://codesandbox.io/s/jkkqzxlp9)
+* [Styling with Styled Components](https://codesandbox.io/s/21qjl6qnzy)
 
 ## TODO:
-* documentation
-* usage example
 * tests
 
 ## License
