@@ -1,9 +1,11 @@
 
 # Simple React Tabs
 
-![Travis](https://img.shields.io/travis/husnimun/a11y-react-tabs.svg?style=flat-square)
-![npm version](https://img.shields.io/npm/v/a11y-react-tabs.svg?style=flat-square)
-![MIT License](https://img.shields.io/npm/l/a11y-react-tabs.svg?style=flat-square)
+[![Travis](https://img.shields.io/travis/husnimun/a11y-react-tabs.svg?style=flat-square)](https://travis-ci.org/husnimun/a11y-react-tabs)
+[![npm version](https://img.shields.io/npm/v/a11y-react-tabs.svg?style=flat-square)](https://www.npmjs.com/package/a11y-react-tabs)
+[![MIT License](https://img.shields.io/npm/l/a11y-react-tabs.svg?style=flat-square)](https://github.com/husnimun/a11y-react-tabs/blob/master/LICENSE)
+[![Codecov](https://img.shields.io/codecov/c/github/husnimun/a11y-react-tabs.svg?style=flat-square)](https://codecov.io/gh/husnimun/a11y-react-tabs)
+
 
 Primitives to build simple and accessible React tabs component.
 
