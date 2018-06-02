@@ -1,4 +1,9 @@
+
 # Simple React Tabs
+
+![Travis](https://img.shields.io/travis/husnimun/a11y-react-tabs.svg?style=flat-square)
+![npm version](https://img.shields.io/npm/v/a11y-react-tabs.svg?style=flat-square)
+![MIT License](https://img.shields.io/npm/l/a11y-react-tabs.svg?style=flat-square)
 
 Primitives to build simple and accessible React tabs component.
 
